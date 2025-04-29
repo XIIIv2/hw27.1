@@ -11,4 +11,4 @@ CREATE TABLE `users` (
 INSERT INTO `users` VALUES (1,'John',30,'john@example.com'),(2,'Alice',25,'alice@example.com'),(3,'Bob',35,'bob@example.com');
 SELECT * FROM `users`;
 DELETE FROM `users` WHERE name='Bob';
-SELECT * FROM `users` WHERE name='Bob'
+SELECT * FROM `users` WHERE name='Bob';
